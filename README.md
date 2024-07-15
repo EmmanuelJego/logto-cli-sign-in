@@ -2,7 +2,9 @@
 
 Logto login with CLI error reproduction.
 
-NodeJS Express server.
+NodeJS Express server. Opens the Logto log in interface which will redirect to this server once logged in.
+
+The Logto application must have a `http://localhost:<this_server_port>` redirect URI registered.
 
 ## Update auth parameters
 
